@@ -212,8 +212,8 @@ function genDot() {
   let sat = false
 
   while (!sat) {
-    var x = Math.floor(Math.random() * size);
-    var y = Math.floor(Math.random() * size);
+    var x = Math.floor(Math.random() * size)-1;
+    var y = Math.floor(Math.random() * size)-1;
 
     for (let i = 0; i < snake.length; i++) {
       let cell = snake[i];
